@@ -25,4 +25,11 @@ public class GlobalExceptionHandler {
 				ex.getMessage(), request.getDescription(false).replace("uri=", ""));
 		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
 	}
+
+	@ExceptionHandler(Exception.class)
+	public ResponseEntity<ErrorResponse> handleException(Exception ex, WebRequest request) {
+		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), HttpStatus.INTERNAL_SERVER_ERROR.value(),
+				"Internal Server Error", ex.getMessage(), request.getDescription(false).replace("uri=", ""));
+		return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
+	}
 }

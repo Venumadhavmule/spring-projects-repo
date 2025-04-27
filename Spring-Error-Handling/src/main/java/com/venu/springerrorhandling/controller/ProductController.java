@@ -17,7 +17,7 @@ public class ProductController {
 		} else if (id > 100) {
 			throw new RuntimeException("Product Not Found");
 		}
-
+		
 		return "Product with ID " + id;
 	}
 }
