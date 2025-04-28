@@ -15,30 +15,23 @@ public class GlobalExceptionHandler {
 	@ExceptionHandler(IllegalArgumentException.class)
 	public ResponseEntity<ErrorResponse> handleIllegalArgumentException(IllegalArgumentException ex,
 			WebRequest request) {
-		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), HttpStatus.BAD_REQUEST.value(), "Bad Request",
-				ex.getMessage(), request.getDescription(false).replace("uri=", ""));
-		return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
-	}
-
-	@ExceptionHandler(RuntimeException.class)
-	public ResponseEntity<ErrorResponse> handleRunTimeException(RuntimeException ex, WebRequest request) {
-		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), HttpStatus.NOT_FOUND.value(), "Not Found",
-				ex.getMessage(), request.getDescription(false).replace("uri=", ""));
-		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+		return buildErrorResponse(ErrorCode.INVALID_INPUT, request.getDescription(false), ex.getMessage());
 	}
 
 	@ExceptionHandler(Exception.class)
 	public ResponseEntity<ErrorResponse> handleException(Exception ex, WebRequest request) {
-		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), HttpStatus.INTERNAL_SERVER_ERROR.value(),
-				"Internal Server Error", ex.getMessage(), request.getDescription(false).replace("uri=", ""));
-		return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
+		return buildErrorResponse(ErrorCode.INTERNAL_SERVER_ERROR, request.getDescription(false), ex.getMessage());
 	}
 
 	@ExceptionHandler(ProductNotFoundException.class)
 	public ResponseEntity<ErrorResponse> handleProductNotFoundException(ProductNotFoundException ex,
 			WebRequest request) {
-		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), HttpStatus.NOT_FOUND.value(), "Product Not found",
-				ex.getMessage(), request.getDescription(false).replace("uri=", ""));
-		return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+		return buildErrorResponse(ErrorCode.PRODUCT_NOT_FOUND, request.getDescription(false), ex.getMessage());
+	}
+
+	private ResponseEntity<ErrorResponse> buildErrorResponse(ErrorCode errorCode, String path, String customMessage) {
+		ErrorResponse error = new ErrorResponse(LocalDateTime.now(), errorCode.getStatus(), errorCode.name(),
+				customMessage != null ? customMessage : errorCode.getMessage(), path.replace("uri=", ""));
+		return new ResponseEntity<>(error, HttpStatus.valueOf(errorCode.getStatus()));
 	}
 }

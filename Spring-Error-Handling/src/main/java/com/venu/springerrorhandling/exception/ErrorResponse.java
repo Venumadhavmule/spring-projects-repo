@@ -14,7 +14,7 @@ import lombok.ToString;
 public class ErrorResponse {
 	private LocalDateTime timestamp;
 	private int status;
-	private String error;
-	private String message;
+	private String errorCode;
+	private String errorMessage;
 	private String path;
 }
