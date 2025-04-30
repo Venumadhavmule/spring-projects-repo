@@ -3,8 +3,8 @@ package com.venu.springerrorhandling.exception;
 import java.time.LocalDateTime;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
@@ -27,6 +27,15 @@ public class GlobalExceptionHandler {
 	public ResponseEntity<ErrorResponse> handleProductNotFoundException(ProductNotFoundException ex,
 			WebRequest request) {
 		return buildErrorResponse(ErrorCode.PRODUCT_NOT_FOUND, request.getDescription(false), ex.getMessage());
+	}
+
+	@ExceptionHandler(MethodArgumentNotValidException.class)
+	public ResponseEntity<ErrorResponse> handleValidationException(MethodArgumentNotValidException ex,
+			WebRequest request) {
+		StringBuilder errors = new StringBuilder();
+		ex.getBindingResult().getFieldErrors().forEach(
+				error -> errors.append(error.getField()).append(": ").append(error.getDefaultMessage()).append("; "));
+		return buildErrorResponse(ErrorCode.INVALID_INPUT, request.getDescription(false), errors.toString());
 	}
 
 	private ResponseEntity<ErrorResponse> buildErrorResponse(ErrorCode errorCode, String path, String customMessage) {
