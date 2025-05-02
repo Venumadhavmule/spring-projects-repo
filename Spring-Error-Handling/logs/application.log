@@ -1,0 +1,119 @@
+2025-05-02 13:08:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-05-02 13:08:15 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 9792 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:08:15 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:08:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 13:08:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 13:08:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:08:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:17 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:08:17 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:08:17 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:08:17 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1456 ms
+2025-05-02 13:08:17 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:08:17 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:17 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:08:17 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 2.923 seconds (process running for 3.446)
+2025-05-02 13:08:31 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2025-05-02 13:08:31 [Thread-5] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 13:08:31 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:31 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-02 13:08:31 [Thread-5] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:31 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 9792 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:08:31 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:08:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:08:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:08:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:08:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:08:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 306 ms
+2025-05-02 13:08:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:08:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:08:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:08:31 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 0.542 seconds (process running for 17.654)
+2025-05-02 13:08:31 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 13:09:00 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-02 13:09:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-02 13:09:00 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-02 13:09:00 [http-nio-8080-exec-1] WARN  c.v.s.e.GlobalExceptionHandler - Validation failed: price: Price must be atleast 1; name: Product name must not be blank; 
+2025-05-02 13:09:00 [http-nio-8080-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.venu.springerrorhandling.controller.ProductController.createProduct(com.venu.springerrorhandling.dto.ProductRequestDTO) with 2 errors: [Field error in object 'productRequestDTO' on field 'price': rejected value [0]; codes [Min.productRequestDTO.price,Min.price,Min.int,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productRequestDTO.price,price]; arguments []; default message [price],1]; default message [Price must be atleast 1]] [Field error in object 'productRequestDTO' on field 'name': rejected value []; codes [NotBlank.productRequestDTO.name,NotBlank.name,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productRequestDTO.name,name]; arguments []; default message [name]]; default message [Product name must not be blank]] ]
+2025-05-02 13:09:48 [File Watcher] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-05-02 13:09:48 [Thread-7] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 13:09:48 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:09:48 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-02 13:09:48 [Thread-7] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:09:49 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 9792 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:09:49 [restartedMain] DEBUG c.v.s.SpringErrorHandlingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-02 13:09:49 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:09:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:09:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:09:49 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:09:49 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:09:49 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:09:49 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 209 ms
+2025-05-02 13:09:49 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:09:49 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:09:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:09:49 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 0.358 seconds (process running for 95.121)
+2025-05-02 13:09:49 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-05-02 13:10:22 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-05-02 13:10:22 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 20180 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:10:22 [restartedMain] DEBUG c.v.s.SpringErrorHandlingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-02 13:10:22 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:10:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 13:10:22 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 13:10:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:10:23 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:10:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:10:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:10:23 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:10:23 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1397 ms
+2025-05-02 13:10:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:10:24 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:10:24 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:10:24 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 2.962 seconds (process running for 4.063)
+2025-05-02 13:11:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-05-02 13:11:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 13:11:05 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:11:05 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-02 13:11:05 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:11:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-05-02 13:11:14 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 15796 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:11:14 [restartedMain] DEBUG c.v.s.SpringErrorHandlingApplication - Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-02 13:11:14 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:11:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 13:11:14 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 13:11:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:11:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:11:16 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:11:16 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:11:16 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:11:16 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1634 ms
+2025-05-02 13:11:16 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:11:16 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:11:16 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:11:16 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 3.119 seconds (process running for 4.389)
+2025-05-02 13:11:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-05-02 13:11:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 13:11:32 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:11:32 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-02 13:11:32 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:15:29 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2025-05-02 13:15:29 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Starting SpringErrorHandlingApplication using Java 22.0.1 with PID 13692 (C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling\target\classes started by Madha in C:\Users\Madha\SpringProjects\spring-projects-repo\Spring-Error-Handling)
+2025-05-02 13:15:29 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-02 13:15:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-05-02 13:15:29 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-05-02 13:15:31 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-05-02 13:15:31 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:15:31 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-02 13:15:31 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-02 13:15:31 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-02 13:15:31 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2202 ms
+2025-05-02 13:15:32 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-05-02 13:15:32 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:15:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-05-02 13:15:32 [restartedMain] INFO  c.v.s.SpringErrorHandlingApplication - Started SpringErrorHandlingApplication in 4.188 seconds (process running for 5.816)
+2025-05-02 13:15:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-05-02 13:15:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-02 13:15:34 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-05-02 13:15:34 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-02 13:15:34 [RMI TCP Connection(2)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
