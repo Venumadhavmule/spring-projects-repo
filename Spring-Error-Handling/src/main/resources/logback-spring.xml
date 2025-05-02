@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<!-- Log file directory -->
+	<property name="LOG_PATH" value="logs" />
+	<property name="LOG_FILE" value="${LOG_PATH}/application.log" />
+
+	<!-- Pattern for logging -->
+	<property name="LOG_PATTERN"
+		value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n" />
+
+	<!-- Console Appender -->
+	<appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${LOG_PATTERN}</pattern>
+		</encoder>
+	</appender>
+
+	<!-- File Appender with daily rolling -->
+	<appender name="RollingFile"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FILE}</file>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- Daily logs -->
+			<fileNamePattern>${LOG_PATH}/application-%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>7</maxHistory> <!-- Keep logs for 7 days -->
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>${LOG_PATTERN}</pattern>
+		</encoder>
+		<append>false</append>
+	</appender>
+
+	<!-- Root logger -->
+	<root level="INFO">
+		<appender-ref ref="Console" />
+		<appender-ref ref="RollingFile" />
+	</root>
+
+</configuration>
